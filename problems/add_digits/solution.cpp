@@ -1,12 +1,18 @@
 class Solution {
 public:
     int addDigits(int num) {
-        if (num == 0) {
-            return 0;
-        } else if (num % 9 == 0) {
-            return 9;
-        } else {
-            return num % 9;
-        }
+
+    while(num >9){
+         int ans = 0 , rem;
+     while(num !=0){
+       
+        rem = num %10;
+        num = num /10;
+        ans =  ans + rem;
+
+     }
+     num = ans;
+    }
+    return num;
     }
 };
