@@ -1,6 +1,6 @@
-# LeetCode Submissions Sync 🚀
+# LeetCode Submissions Sync 
 
-Welcome to my LeetCode submissions repository! This repository automatically syncs all my accepted LeetCode solutions using GitHub Actions.
+Welcome to my LeetCode submissions repository. This repository automatically syncs all my accepted LeetCode solutions using GitHub Actions.
 
 ## 📊 How It Works
 1. A scheduled GitHub Action runs daily.
@@ -15,4 +15,4 @@ This project utilizes the [leetcode-sync](https://github.com/joshcai/leetcode-sy
 - `LEETCODE_CSRF_TOKEN`: CSRF token cookie.
 
 ---
-*Generated automatically by GitHub Actions.*
+
