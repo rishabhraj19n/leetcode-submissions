@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 8 * * *"   # Runs automatically every day at 8:00 AM UTC
 
+permissions:
+  contents: write         # Allows the action to write commits to the repository
+
 jobs:
   build:
     runs-on: ubuntu-latest
